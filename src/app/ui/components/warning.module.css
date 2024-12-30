@@ -1,0 +1,6 @@
+.container {
+  position: relative;
+  padding: 0.5em;
+  background-color: rgb(226, 175, 175);
+  color: black;
+}

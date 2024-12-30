@@ -1,0 +1,40 @@
+.socialMedia {
+  position: fixed;
+  top: 73lvh;
+  right: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5em;
+  gap: 1.5em;
+  width: 3em;
+}
+
+.socialMedia svg {
+  color: white;
+}
+.socialMedia svg:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+@media screen and (max-width: 650px) {
+  .socialMedia {
+    right: 0.2em;
+  }
+  .socialMedia svg {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-height: 840px) {
+  .socialMedia {
+    bottom: 10lvh;
+  }
+}
+
+@media screen and (max-height: 725px) {
+  .socialMedia {
+    bottom: 20lvh;
+  }
+}

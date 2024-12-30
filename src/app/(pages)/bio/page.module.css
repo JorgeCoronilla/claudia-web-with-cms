@@ -1,0 +1,43 @@
+.bio {
+  height: 100vh; 
+  height: 100dvh;
+  background-image: url('https://pub-9ab46d589d8e491b8c9ca836b36772a2.r2.dev/bio.webp');
+  padding: 18em 40% 4em 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bio h1 {
+  color: #fff;
+
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-size: 3em;
+  font-family: Bebas_Neue, sans-serif;;
+  letter-spacing: 1em;
+  margin-bottom: 0.5em;
+}
+
+.bio p {
+  color: #fff;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.bio button {
+  padding: 0.7em 0.8em;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 1px;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.bio button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+}

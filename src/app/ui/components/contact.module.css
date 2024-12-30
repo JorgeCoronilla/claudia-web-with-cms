@@ -1,0 +1,73 @@
+.contactForm {
+  background-color: rgba(0, 0, 0, 0.374);
+  /* border: 1px solid white; */
+  border-radius: 2px;
+  padding: 1.5em 2em;
+  max-width: 38em;
+  border-radius: 4px;
+}
+@media screen and (max-width: 900px) {
+  .contactForm {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contactForm {
+    max-width: 100%;
+    margin: 0;
+    padding: 1em 1em;
+  }
+}
+.contactForm div {
+  margin: 0;
+}
+
+.contactForm input,
+.contactForm textarea {
+  color:rgb(177, 177, 177);
+  display: block;
+  width: 100%;
+  margin: 0.2em auto 0;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 2px;
+  font-size: 2.4vh;
+  background-color: transparent;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contactForm label,
+.contactForm button {
+  color:rgb(177, 177, 177);
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-family: Bebas_Neue;
+  border-radius: 4px;
+}
+
+.contactForm label {
+  margin: 0.8em 0.2em 0;
+  letter-spacing: 0.3em;
+}
+
+.contactForm input {
+  padding: 3px 15px;
+}
+.contactForm textarea {
+  padding: 10px 15px;
+  height: 8em;
+  border-radius: 4px;
+  font-size: 1.4em;
+}
+
+.contactForm button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: rgb(177, 177, 177);;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}

@@ -1,0 +1,59 @@
+.homeHeader {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  width: 100%;
+  padding: 1em 2em 1em;
+  font-family: Bebas_Neue;
+  font-size: 1.3em;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+}
+.logo {
+  width: 6em;
+  height: 1.8em;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 0.4em;
+}
+
+.navBar a {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+a.current {
+  text-decoration: underline;
+  color: rgb(243, 86, 86);
+}
+
+@media screen and (max-width: 650px) {
+  .homeHeader {
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+  .logo {
+    display: none;
+  }
+  .navBar {
+    padding-top: 0.2em;
+    margin: 0 auto;
+  }
+  .navBar a {
+    margin-left: 0.5em;
+  }
+}

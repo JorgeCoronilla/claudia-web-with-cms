@@ -1,0 +1,103 @@
+.cover {
+  height: 100vh; 
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+}
+
+.cover h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 50dvh auto 1em;
+}
+
+span.claudia {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-size: clamp(1.8rem, 0.6rem + 4.8vw, 3rem);
+  font-size: clamp(1.7rem, -1rem + 8vw, 3rem);
+
+  letter-spacing: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+.cover h1 span {
+  display: block;
+  text-align: center;
+  padding-left: 1em;
+}
+span.de {
+  /* font-size: 1.37em; */
+  font-size: clamp(0.47em, 0.37em + 2.85vw, 1.37em);
+  font-size: clamp(0.27em, 0.32em + 2.85vw, 1.37em);
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1.37em;
+  padding-left: 1.47em !important;
+}
+.utrera {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.2sem;
+}
+.verticalPic {
+  height: 300vh; 
+  height: 300dvh;
+  background-image: url('https://pub-9ab46d589d8e491b8c9ca836b36772a2.r2.dev/cover-vertical3.webp');
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutMe{
+  height: 100vh; 
+  height: 100dvh;
+  background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 1150px) {
+  .verticalPic {
+    height: 150vh; 
+    height: 150dvh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .verticalPic {
+    height: 100vh; 
+    height: 100dvh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .verticalPic {
+    height: 80vh; 
+    height: 80dvh;
+  }
+}
+
+.contact {
+  height: 100vh; 
+  height: 100dvh;
+  background-image: url('https://pub-9ab46d589d8e491b8c9ca836b36772a2.r2.dev/contact.webp');
+  padding: 15% 8em 0 48%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 900px) {
+  .contact {
+    padding: 10em 3.5em 0 2em;
+  }
+}

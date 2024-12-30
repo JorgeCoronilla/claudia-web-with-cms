@@ -1,0 +1,8 @@
+.performances {
+  height: 100dvh;
+  background-image: url('https://pub-9ab46d589d8e491b8c9ca836b36772a2.r2.dev/actuaciones.webp');
+  padding: 18em 40% 4em 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

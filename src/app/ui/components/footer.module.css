@@ -1,0 +1,40 @@
+.footer {
+  position: fixed;
+  bottom: 0.5em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+  font-family: Bebas_Neue;
+
+}
+
+.claudia {
+  font-size: 0.8em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+}
+
+.credits {
+  font-size: 0.8em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+}
+
+.credits a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 0.1em 0.5em;
+}
+@media screen and (max-width: 650px) {
+  .footer {
+    padding: 0.5em 1em;
+  }
+  .claudia {
+    font-size: 0.6em;
+  }
+  .credits {
+    font-size: 0.6em;
+  }
+}
