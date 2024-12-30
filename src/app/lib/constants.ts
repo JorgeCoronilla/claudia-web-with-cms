@@ -12,3 +12,13 @@ export const warnings_INITIAL_STATE: ContactWarnings = {
   message: false,
   allFields: false,
 };
+
+export const content: Record<ContentType, ContentType> = {
+  home: "home",
+  logros: "logros",
+  prensa: "prensa",
+  espectaculos: "espectaculos",
+  actuaciones: "actuaciones",
+  biografia: "biografia",
+  masterClasses: "masterClasses",
+};
