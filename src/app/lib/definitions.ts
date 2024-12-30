@@ -12,3 +12,5 @@ interface ContactWarnings {
   message: boolean;
   allFields: boolean;
 }
+
+type ContentType = "home" | "logros" | "prensa" | "espectaculos" | "actuaciones" | "biografia" | "masterClasses"

@@ -1,22 +1,13 @@
-import { type SanityDocument } from "next-sanity";
-
-import { client } from "@/sanity/client";
-
 import { ContactForm } from './ui/components/contact';
+import { getContent } from './lib/fetchContent/getContent';
+
 import styles from './page.module.css';
 
-
-const HOME_QUERY = `*[
-  _type == "section1"
-]{_id, title, subtitle}`;
-
-const options = { next: { revalidate: 30 } };
-
-
 export default async function Home() {
-  const posts = await client.fetch<SanityDocument[]>(HOME_QUERY, {}, options);
+const posts  = await getContent('home');
 console.log("Print somthing", posts);
-  return (
+  
+return (
     <main className={styles.main}>
       <section
         className={styles.cover}
