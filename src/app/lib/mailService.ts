@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 
 export async function sendConfirmationMail(toEmail: string, name: string) {
   console.log(toEmail, name);
-  var transporter = nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: process.env.NODEMAILER_EMAIL,
@@ -11,7 +11,7 @@ export async function sendConfirmationMail(toEmail: string, name: string) {
     },
   });
 
-  var mailOptions = {
+  const mailOptions = {
     from: process.env.NODEMAILER_EMAIL,
     to: toEmail,
     subject: `${name}, gracias por contactar con Claudia!`,
@@ -176,7 +176,7 @@ export async function sendMessageToAdmin(
   phone: string,
   message: string
 ) {
-  var transporter = nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: process.env.NODEMAILER_EMAIL,
@@ -184,7 +184,7 @@ export async function sendMessageToAdmin(
     },
   });
 
-  var mailOptions = {
+  const mailOptions = {
     from: process.env.NODEMAILER_EMAIL,
     to: process.env.NODEMAILER_EMAIL,
     subject: `Mensaje recibido de ${name}`,

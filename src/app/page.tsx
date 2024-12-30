@@ -1,4 +1,3 @@
-//import Link from "next/link";
 import { type SanityDocument } from "next-sanity";
 
 import { client } from "@/sanity/client";
@@ -16,7 +15,7 @@ const options = { next: { revalidate: 30 } };
 
 export default async function Home() {
   const posts = await client.fetch<SanityDocument[]>(HOME_QUERY, {}, options);
-console.log(posts);
+console.log("Print somthing", posts);
   return (
     <main className={styles.main}>
       <section
