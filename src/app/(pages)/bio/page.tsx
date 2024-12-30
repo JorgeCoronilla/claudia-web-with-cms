@@ -15,16 +15,10 @@ export default function Page() {
       <section className={styles.bio}>
         <h1>Bio</h1>
         <p>
-          I am a software engineer with a passion for learning and sharing my
-          knowledge with others. I have experience working with JavaScript and
-          Python, and I am currently learning about web development and cloud
-          computing.
+        Soy ingeniero de software y me apasiona aprender y compartir mis conocimientos con los demás. Tengo experiencia trabajando con JavaScript y Python, y actualmente estoy aprendiendo sobre desarrollo web y computación en la nube.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugit
-          magnam hic earum at consequuntur possimus. Qui enim ab soluta magnam
-          corporis sunt obcaecati maiores, fugit vitae, asperiores voluptatibus
-          facere.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugit magnam hic earum at consequuntur possimus. Qui enim ab soluta magnam corporis sunt obcaecati maiores, fugit vitae, asperiores voluptatibus facere.
         </p>
         <button onClick={showModal}>Master Classes</button>
       </section>
