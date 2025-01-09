@@ -13,9 +13,9 @@ const plus_jakarta_sans = Plus_Jakarta_Sans({
   display: 'fallback',
   variable: '--font-jakarta-sans',
 });
-const inter = localFont({
-  src: './ui/fonts/Bebas_Neue/BebasNeue-Regular.ttf',
-});
+// const inter = localFont({
+//   src: './ui/fonts/Bebas_Neue/BebasNeue-Regular.ttf',
+// });
 
 export const metadata: Metadata = {
   title: 'Create Next App',

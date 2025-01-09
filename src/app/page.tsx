@@ -4,10 +4,10 @@ import { getContent } from './lib/fetchContent/getContent';
 import styles from './page.module.css';
 
 export default async function Home() {
-const posts  = await getContent('home');
-console.log("Print somthing", posts);
+  const posts  = await getContent('home');
+  console.log("Print somthing", posts);
   
-return (
+  return (
     <main className={styles.main}>
       <section
         className={styles.cover}
@@ -19,7 +19,7 @@ return (
             de<strong className={styles.utrera}>Utrera</strong>
           </span>
         </h1>
-          <video
+        <video
 
           autoPlay 
           muted

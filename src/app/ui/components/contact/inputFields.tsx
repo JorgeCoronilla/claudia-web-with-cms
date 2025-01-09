@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './button.module.css';
+// import styles from './button.module.css';
 import Warning from '../warning';
 interface Props {
   action: (e: React.ChangeEvent<HTMLInputElement>) => void;
