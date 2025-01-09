@@ -7,13 +7,13 @@ import { biografia } from './biografia';
 import { prensa } from './prensa';
 
 export const contentQueries = {
-    home: home,
-    logros: logros,
-    prensa: prensa,
-    espectaculos: espectaculos,
-    actuaciones:  actuaciones,
-    biografia: biografia,
-    masterClasses: masterClasses,
+  home: home,
+  logros: logros,
+  prensa: prensa,
+  espectaculos: espectaculos,
+  actuaciones:  actuaciones,
+  biografia: biografia,
+  masterClasses: masterClasses,
     
 }
 
